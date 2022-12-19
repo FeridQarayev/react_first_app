@@ -5,7 +5,7 @@ const Welcome = (props) => {
     <>
     <p>Name: {props.name}</p>
     <p>Age: {props.age}</p>
-    <img src={props.img} alt={props.name} />
+    <img src={props.src} alt={props.name} />
     </>
   )
 }
